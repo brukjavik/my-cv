@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- comunica ao browser que o arquivo trata-se de um arquivo html-->
+<html> <!-- comunica ao browser que tudo após a abertura e antes do fechamento da tag é html-->
+    <head> <!-- comunica ao site informações sobre o documento/página -->
+        <meta charset="utf-8"> <!-- diz ao browser que todo o texto dentro da página está codificada usando utf-8 -->
+        <title>Bruno's Personal Site</title> <!-- diz ao browser qual o título da página -->
+    </head>
+    <body>
+        <h3>Contact me</h3>
+
+        <ul>
+            <li>Mail: brunocosta@eng.ci.ufpb.br</li>
+            <li>Tel: +55 83 9 99545892</li>
+        </ul>
+
+        <hr>
+
+        <form action="mailto:brunocosta@eng.ci.ufpb.br" method="post" enctype="text/plain">
+            <label>Your name: </label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your email:</label>
+            <input type="email" name="yourEmail"><br>
+            <label>Your message:</label><br>
+            <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+            <input type="submit" name=""> 
+        </form>
+        <br>
+        <a href="index.html">Go back</a>
+
+    </body>
+</html>
