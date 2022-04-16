@@ -1,0 +1,20 @@
+body{
+    background-color: #EAF6F6;
+}
+
+hr{
+    border-style: none; /* Diz que a caixa não terá bordas */
+    border-top-style: dotted; /* Diz que a borda superior da caixa terá borda de pontos */
+    border-color: grey; /* Diz que a borda da caixa terá borda cinza */
+    border-width: 5px; /* Diz que o tamanho da borda é de 5px (grossura dos pontos) */
+    width: 5%; /* Diz a extensão em % que a horizontal row terá do total da página */
+}
+
+img{
+    height: 180px;
+
+}
+
+h1, h3{
+    color: #66BFBF;
+}
